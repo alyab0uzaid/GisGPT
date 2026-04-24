@@ -29,10 +29,9 @@ export async function POST(req: Request) {
     async start(controller) {
       try {
         const anthropicStream = client.messages.stream({
-          model: "claude-opus-4-7",
+          model: "claude-sonnet-4-6",
           max_tokens: 4096,
           system: SYSTEM_PROMPT,
-          thinking: { type: "adaptive" },
           messages: messages.map((m) => ({ role: m.role, content: m.content })),
         });
 
