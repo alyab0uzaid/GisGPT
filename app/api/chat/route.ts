@@ -42,9 +42,14 @@ export async function POST(req: Request) {
         await anthropicStream.finalMessage();
         controller.close();
       } catch (err) {
+        if (err instanceof Anthropic.APIError) {
+          console.error("Anthropic API error:", err.status, err.message, err.error);
+        } else {
+          console.error("Unknown error:", err);
+        }
         const msg =
           err instanceof Anthropic.APIError
-            ? `OK the API is HAVING A MOMENT 😤 (${err.status}) try again`
+            ? `OK the API is HAVING A MOMENT 😤 (${err.status}: ${err.message}) try again`
             : "OK so something BROKE 😤 try again";
         controller.enqueue(encoder.encode(msg));
         controller.close();
