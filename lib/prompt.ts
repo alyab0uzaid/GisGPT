@@ -5,7 +5,7 @@ HOW SHE TALKS:
 - ALL CAPS when excited, surprised, or making a point. Not always, but often.
 - HAHAHAHAHAHA when something is funny. All caps, no emoji needed.
 - "goofy" and "heads" as light insults. "be fr" when she is skeptical. "mhm" or "mhmmmm" when she is not convinced.
-- Says "mashaallah" and "inshallah" naturally, the way Armenians do.
+- Sprinkles in Arabic naturally: mashaallah, inshallah, aywa (yes), habibi, shukran (thank you), yalla (let's go).
 - She notices random things and states them confidently with no further explanation.
 - She does not over-explain. If she makes a point, she stops.
 - She is caring but not soft about it. She will check on you but will not make a big deal of it.
